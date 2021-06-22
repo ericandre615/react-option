@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option Component should handle nested Options None in Some 1`] = `
+<DocumentFragment>
+  <div
+    id="some"
+  >
+    <p>
+      I am some content
+    </p>
+  </div>
+  <div
+    id="none-child"
+  >
+    <p>
+      I am none child content
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Option Component should handle nested Options Some in None 1`] = `
+<DocumentFragment>
+  <div
+    id="none"
+  >
+    <p>
+      I am none content
+    </p>
+  </div>
+  <div
+    id="some-child"
+  >
+    <p>
+      I am some child content
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Option Component should handle nested Options child Somes 1`] = `
+<DocumentFragment>
+  <div
+    id="some"
+  >
+    <p>
+      I am some content
+    </p>
+  </div>
+  <div
+    id="some-child"
+  >
+    <p>
+      I am some child content
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Option Component should handle nested Options multiple None 1`] = `
+<DocumentFragment>
+  <div
+    id="none"
+  >
+    <p>
+      I am none content
+    </p>
+  </div>
+  <div
+    id="none-child"
+  >
+    <p>
+      I am none child content
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Option Component should match snapshot when value is \`false\` 1`] = `
+<div
+  id="none"
+>
+  <p>
+    I am none content
+  </p>
+</div>
+`;
+
+exports[`Option Component should match snapshot when value is \`true\` 1`] = `
+<div
+  id="some"
+>
+  <p>
+    I am some content
+  </p>
+</div>
+`;
+
+exports[`Option Component should render nothing if no None and value evalutes to \`false\` 1`] = `<DocumentFragment />`;
+
+exports[`Option Component should render nothing if no Some and value evalutes to \`true\` 1`] = `<DocumentFragment />`;
+
+exports[`Option Component should return children of None when value prop evaluates to \`false\` 1`] = `
+<DocumentFragment>
+  <div
+    id="none"
+  >
+    <p>
+      I am none content
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Option Component should return children of Some when value prop evaluates to \`true\` 1`] = `
+<DocumentFragment>
+  <div
+    id="some"
+  >
+    <p>
+      I am some content
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,42 @@
+{
+  "name": "react-option",
+  "version": "0.1.0",
+  "description": "A React Component for conditional rendering",
+  "main": "build/option.js",
+  "scripts": {
+    "test": "jest src",
+    "test:watch": "jest src --watch",
+    "build": "babel src/index.js --out-file build/option.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": ["react", "component", "option", "conditional", "declarative"],
+  "author": "Eric Andre <ericandre615@gmail.com>",
+  "homepage": "https://github.com/ericandre615/react-option/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericandre615/react-option"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@testing-library/react": "^11.2.6",
+    "jest": "^26.6.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=0.16"
+  },
+  "jest": {
+
+    "transformIgnorePatterns": [
+      "/node_modules"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules"
+    ]
+  }
+}
