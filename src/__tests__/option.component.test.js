@@ -5,7 +5,7 @@ import {
     Some,
     None,
     Option,
-} from '../index';
+} from '../option';
 
 describe('Option Component', () => {
     it('should return children of Some when value prop evaluates to `true`', () => {

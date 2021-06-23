@@ -30,13 +30,15 @@ const isNone = findChildrenBy(OPTION_TYPES.NONE);
 export const Option = ({ children, value }) => {
     if (value === true) {
         const SomeComponent = isSome(children);
-
         return SomeComponent || null;
     }
 
     const NoneComponent = isNone(children);
-
     return NoneComponent || null;
 }
 
-export default Option;
+export default {
+  Some,
+  None,
+  Option
+};

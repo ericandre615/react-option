@@ -59,5 +59,9 @@ var Option = function Option(_ref3) {
 };
 
 exports.Option = Option;
-var _default = Option;
+var _default = {
+  Some: Some,
+  None: None,
+  Option: Option
+};
 exports["default"] = _default;
